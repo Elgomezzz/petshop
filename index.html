@@ -6,18 +6,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Description web page">
     <meta name="title" content="Stylish Pet Shop">
-    <link rel="icon" href="resources/img/huellas-title.png" type="image/x-icon">
-    <title> Stylish Pet Shop</title>
+    <link rel="stylesheet" href="/resources/css/normalize.css">
+    <link rel="stylesheet" href="/resources/css/index.css">
+    <link rel="icon" href="/resources/img/huellas-title.png" type="image/x-icon">
+    <title> Stylish Pet Shop </title>
 </head>
 <body>
     <header>
         <div class="container-head">
-            <div class="logo-compain"></div>
-            <div class="search"></div>
-            <div class="content-for-user"></div>    
+            <div class="logo-compain">
+                <div class="logo-contain">
+                    <div class="img-logo">
+                        <a href="index.html">
+                            <img src="#" alt="image-logo-pet-shop" >
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="search">
+                <div class="contain-search">
+                    <label for="bar-search">Busca tu producto deseado</label>
+                    <input type="search" name="search-product" id="bar-search" placeholder="Search...">
+                    <button type="submit" class="btn-search"><img src="/resources/img/icon-search.png" alt="img-btn-bar-search"></button>
+                </div>
+            </div>
+            <div class="content-for-user">
+
+            </div>    
         </div>
+        <nav class="navbar">
+            <ul class="list-navbar">
+                <li class="item-navbar"><a href="#">Alimentación</a></li>
+                <li class="item-navbar"><a href="#">Jugueteria</a></li>
+                <li class="item-navbar"><a href="#">Farmacia</a></li>
+                <li class="item-navbar"><a href="#">Accesorios</a></li>
+            </ul>
+        </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <article class="products-recommended">
+            <section class="contain-recommendations">
+                <h2>Productos recomendados</h2>
+                <div class="contain-list-recommendations">
+                    <div class="list-recommendations">
+    
+                    </div>
+                </div>
+            </section>
+        </article>
+        <article class="carrousel-images">
+            <div class="contain-carrousel-img">
+
+            </div>
+        </article>
+        <article class="products-more-sell">
+            <section class="contain-more-sell">
+                <h2>Productos más vendidos</h2>
+                <div class="list-more-sell">
+
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <div class="contain-txt-end-page">
+            <p class="txt-name-compain">&#169Stylish J&J Pet Shop</p>
+            <p class="rights"><b>All Rights Reserved.</b></p>
+        </div>
+    </footer>
 </body>
 </html>
